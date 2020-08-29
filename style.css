@@ -327,7 +327,8 @@ header > nav:first-child {
 .address p{
   font-size: 1.1vmax;
 }
-#googleMap,
+
+#googleMap,#map,
 #map1 {
   border: solid 1px whitesmoke;
   position: relative;
