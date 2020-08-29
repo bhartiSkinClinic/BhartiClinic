@@ -213,6 +213,11 @@ header > nav:first-child {
   padding: 50px;
 }
 
+.testimonials {
+  width: 75%;
+  margin: auto;
+}
+
 .testimonials .carousel .carousel-inner .carousel-item img {
   width: 100%;
   height: auto;
