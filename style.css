@@ -328,7 +328,7 @@ header > nav:first-child {
   font-size: 1.1vmax;
 }
 
-#googleMap,#map,
+#map,
 #map1 {
   border: solid 1px whitesmoke;
   position: relative;
