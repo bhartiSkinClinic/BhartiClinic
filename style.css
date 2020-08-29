@@ -194,6 +194,8 @@ header > nav:first-child {
 }
 .col-lg-4 .box-i {
   width: 95%;
+  height: 260px;
+
 }
 .desc h2 {
   /* color: rgb(79, 165, 251); */
