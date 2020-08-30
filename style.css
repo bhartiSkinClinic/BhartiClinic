@@ -523,6 +523,74 @@ button.red:active {
 
 /*disease page end*/
 
+/*CHECKING DROPDOWN*/
+
+.dropdown {
+      position: relative;
+      display: inline-block;
+      float: left;
+      align-items: center;
+      justify-content: space-around;
+      height: 100%;
+      width: fit-content;
+      margin: 25px;
+}
+
+.dropdown .dropbtn {
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: black;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  align-items: center;
+  padding: 14px 16px;
+  transition: all 0.5s ease-out;
+}
+
+
+.dropdown:hover .dropbtn {
+  transform: scale(1.2);
+  color: #2ac4ea;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*CHECKING DROPDOWN*/
+
+
+
 @media screen and (max-width: 1300px) {
   .nav-links a {
     font-size: 1rem;
