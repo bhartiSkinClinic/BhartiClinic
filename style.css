@@ -453,10 +453,10 @@ button.red:active {
   margin-right: 10px;
 }
 .fa-whatsapp {
-  background-color: rgb(76, 241, 46);
+  background-color: #4AC959;
   padding: 7px;
   color: white;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 .fa-facebook {
   background: #3b5998;
